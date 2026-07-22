@@ -42,7 +42,9 @@ WeatherPredictionTask_UDP/
 ```
 
 
-# How to run the experiment:
+---
+
+## How to run the experiment:
 
 1. Launch the experiment by calling the main function in Matlab command window:
 `WeatherPredictionTask_Aspe`
@@ -56,7 +58,9 @@ WeatherPredictionTask_UDP/
 3. Calibrate eye-tracking (Eyelink)
 4. When calibration is done, the task starts
 
-# Task control and workings
+---
+
+## Task control and workings
 
 The task requires a regular computer keyboard for the participant to deliver responses
 
@@ -72,12 +76,16 @@ The task requires a regular computer keyboard for the participant to deliver res
 Performance Criteria: If a participant achieves 47 or more correct responses in a single block, the session terminates early upon success.
 Block Breaks: Includes a 60-second break between blocks
 
-# Configuration & Hardware Settings
+---
+
+## Configuration & Hardware Settings
 Settings can be customized inside `settings_WeatherPredictionTask_ASPE.m`:
 Eye-Tracker Integration: Set `dummyMode_Eyelink = true` to skip Eyelink calibration during testing without hardware attached.  Set `dummyMode_Eyelink = false` for active eye-tracking sessions.
 Timing Parameters: `ITI_s = 2;`: Inter-trial interval (seconds).  `Wait_time_s = 2;`: Maximum response window per trial.  `Feedback_durat_s = 2;`: Duration of visual feedback.
 
-# Output Data
+---
+
+## Output Data
 Session data is saved automatically to the ./data/ folder in both .mat and tab-delimited .txt formats:
 
 Output File Contents (.txt and .mat):
@@ -94,7 +102,9 @@ Output File Contents (.txt and .mat):
 
 * Stimulus-Outcome Association Map: Overview of shape pairs, stimulus associations, and assigned weather predictions for the session.  
 
-# Functions overview
+---
+
+## Functions overview
 
 | File | Purpose |
 | :--- | :--- |
