@@ -93,3 +93,14 @@ Output File Contents (.txt and .mat):
   RT (s): Response time in seconds
 
 * Stimulus-Outcome Association Map: Overview of shape pairs, stimulus associations, and assigned weather predictions for the session.  
+
+# Functions overview
+
+| File | Purpose |
+| :--- | :--- |
+| `WeatherPredictionTask_Aspe.m` | Core task loop handling Psychtoolbox rendering, inputs, and trial sequencing. |
+| `settings_WeatherPredictionTask_ASPE.m` | Loads parameters, generates pseudorandom sequences, and handles key mappings. |
+| `GetSubjectInfo_Weather.m` | GUI prompt collecting metadata prior to task start. |
+| `saveBehavData_Weather.m` | Exports behavioral parameters to `.txt` and `.mat` formats. |
+| `GenRandomString.m` | Generates a randomized alphanumeric code for participant anonymization. |
+| `GetCurrDateTime.m` | Returns a formatted string (`yyyy_mm_dd_hh-min`) for timestamping saved files. |
