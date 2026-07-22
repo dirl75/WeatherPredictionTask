@@ -1,6 +1,8 @@
 # Weather Prediction Task (Psychtoolbox)
 
-This task is based originally on the WPT version in Kumaran et al., Neuropsychologia 2007 (https://doi.org/10.1016/j.neuropsychologia.2007.04.007). The code contained here was used in a replica of Kumaran et al., conducted at the Centro de Estudios en Neurociencia Humana y Neuropsicología, Facultad de Psicología, Universidad Diego Portales, Santiago, Chile. This work was published in the International Journal of Psychophysiology (https://doi.org/10.1016/j.ijpsycho.2026.113431).
+This task is based originally on the WPT version in Kumaran et al., Neuropsychologia 2007 (https://doi.org/10.1016/j.neuropsychologia.2007.04.007). 
+
+The code contained here was used in a replica of the study of Kumaran et al., conducted at the Centro de Estudios en Neurociencia Humana y Neuropsicología, Facultad de Psicología, Universidad Diego Portales, Santiago, Chile. This work was published in the International Journal of Psychophysiology (https://doi.org/10.1016/j.ijpsycho.2026.113431).
 
 This repository contains MATLAB scripts to run an experimental **Weather Prediction Task** integrated with **Psychtoolbox-3** and eye-tracking functionality (Eyelink).
 
