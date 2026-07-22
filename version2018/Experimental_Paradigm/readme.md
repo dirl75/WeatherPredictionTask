@@ -82,7 +82,8 @@ Session data is saved automatically to the ./data/ folder in both .mat and tab-d
 
 Output File Contents (.txt and .mat):
 * Metadata: Subject ID, Age, Gender, Date/Time, Experimenter, and Task Status.
-* Behavioral Variables:
+* Variables:
+
   Block: Current block index
 
   Stimulus: ID of presented shape pair
