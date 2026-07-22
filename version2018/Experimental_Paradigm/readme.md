@@ -79,11 +79,12 @@ Timing Parameters: `ITI_s = 2;`: Inter-trial interval (seconds).  `Wait_time_s =
 
 # Output Data
 Session data is saved automatically to the ./data/ folder in both .mat and tab-delimited .txt formats:
+
 Output File Contents (.txt and .mat):
-Metadata: Subject ID, Age, Gender, Date/Time, Experimenter, and Task Status.
-Behavioral Variables:
-  Block: Current block index
-  Stimulus: ID of presented shape pair
+*Metadata: Subject ID, Age, Gender, Date/Time, Experimenter, and Task Status.
+*Behavioral Variables:
+  **Block: Current block index
+  **Stimulus: ID of presented shape pair
   Performance: Accuracy (1 = Correct, 0 = Incorrect)
   RT (s): Response time in seconds
-Stimulus-Outcome Association Map: Overview of shape pairs, stimulus associations, and assigned weather predictions for the session.  
+*Stimulus-Outcome Association Map: Overview of shape pairs, stimulus associations, and assigned weather predictions for the session.  
