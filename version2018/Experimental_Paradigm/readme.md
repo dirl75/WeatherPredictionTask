@@ -68,16 +68,16 @@ The task requires a regular computer keyboard for the participant to deliver res
 
 * Task structure
 
-- Blocks: Up to 6 blocks of 50 trials each (300 total maximum).
-- Performance Criteria: If a participant achieves 47 or more correct responses in a single block, the session terminates early upon success.
-- Block Breaks: Includes a 60-second break between blocks
++ Blocks: Up to 6 blocks of 50 trials each (300 total maximum).
+Performance Criteria: If a participant achieves 47 or more correct responses in a single block, the session terminates early upon success.
+Block Breaks: Includes a 60-second break between blocks
 
-* Configuration & Hardware Settings
+# Configuration & Hardware Settings
 Settings can be customized inside `settings_WeatherPredictionTask_ASPE.m`:
 Eye-Tracker Integration: Set `dummyMode_Eyelink = true` to skip Eyelink calibration during testing without hardware attached.  Set `dummyMode_Eyelink = false` for active eye-tracking sessions.
 Timing Parameters: `ITI_s = 2;`: Inter-trial interval (seconds).  `Wait_time_s = 2;`: Maximum response window per trial.  `Feedback_durat_s = 2;`: Duration of visual feedback.
 
-* Output Data
+# Output Data
 Session data is saved automatically to the ./data/ folder in both .mat and tab-delimited .txt formats:
 Output File Contents (.txt and .mat):
 Metadata: Subject ID, Age, Gender, Date/Time, Experimenter, and Task Status.
