@@ -1,4 +1,4 @@
-%% calculate strategy score using Excel data
+%% load & analyze behavioral data 
 
 if ~exist('behaviorAnalysisDone', 'var') || ~behaviorAnalysisDone
     analyze_behav_WeatherPred2018
@@ -7,8 +7,8 @@ else
     disp('all relevant variables are in the worskpace.')
 end
 
+% calculate strategy score using Excel data
 analyze_strategies_WeatherPred2018
-
 %% PLOT FIGURE
 
 left=0.1;
