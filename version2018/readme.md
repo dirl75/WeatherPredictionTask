@@ -3,7 +3,7 @@
 
 This repository contains Matlab code related to a version of WPT implemented as a replica of a previously published study.
 
-- The study is published in: https://doi.org/10.1038/s41597-019-0037-2
+- The study is published in: https://doi.org/10.1016/j.ijpsycho.2026.113431
 - The data collected in the study are available at: https://doi.org/10.6084/m9.figshare.32209329
 
 This directory contains the experimental task, analysis, and figure generation scripts.
